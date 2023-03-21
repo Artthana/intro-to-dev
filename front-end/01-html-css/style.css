@@ -1,0 +1,26 @@
+.box {
+    background-color: skyblue;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.title {
+    font-size: 60px;
+}
+.text {
+    font-size: 30px;
+}
+
+
+/*  */
+.button {
+    color: white;
+    background-color: blueviolet;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    margin-bottom: 10px;
+    display: block;   /* จองเต็มบรรทัด + กำหนดความกว้าง width ได้ */
+    display: inline-block; /* แสดงผลไม่่เต็มบรรทัด แต่สามารถกำหนดขนาดได้ */
+    width: 30%;
+}
+
