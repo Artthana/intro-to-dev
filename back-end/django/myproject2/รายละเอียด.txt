@@ -1,0 +1,13 @@
+Admin Panel
+$ python manage.py createsuperuser
+#username:
+#email
+#password 
+
+View Data (Query set)
+1.ดึงข้อมูลหลายรายการ
+all() - ดึงทั้งหมด
+filter(เงื่อนไข) - ดึงข้้อมูลแบบระบุเงื่อนไข
+
+2.ดึงข้อมูลแบบรายการเดียว
+get(เงื่อนไข) - ดึงข้อมูลแบบระบุเงื่อนไข
