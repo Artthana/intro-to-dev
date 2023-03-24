@@ -10,29 +10,14 @@
     {% endblock %}
 </head>
 <body style="width: 100%;">
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Navbar</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item active">
-              <a class="nav-link" href="/">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="about">เกี่ยวกับ</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="form">​form กรอกข้อมูล</a>
-            </li>
-          </ul>
-        </div>
-      </nav>
+    {% include 'component/site_header.html' %}
     <hr>
-    <div style="width: 75%;margin: auto;">
-        {% block content %}
-        {% endblock %}
+    <div style="height: 100vh;">
+      <div style="width: 75%;margin: auto;">
+          {% block content %}
+          {% endblock %}
+      </div>
     </div>
+    {% include 'component/site_footer.html' %}
 </body>
 </html>
