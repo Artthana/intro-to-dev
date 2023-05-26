@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    height: auto;
+    background: rgb(194, 187, 187);
+    /* justify-content: center;
+    align-items: center; */
+    position: relative;
+    basd
+    /* flex-direction: column; */
+}
+
+.nav-toggle {
+    position: absolute;
+    left: 20px;
+    font-size: 20px;
+    display: inline-block;
+}
+
+.logo {
+    margin: 40px 0 40px 0;
+    border: 1px solid red;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+}
+
+ul {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+}
